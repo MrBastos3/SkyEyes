@@ -1,0 +1,118 @@
+ `index.html`
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyEyes - Mapeamento e Fotografia com Drones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="FlyEyes Logo">
+                <h1>FlyEyes</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Mapeamento e Fotografia com Drones de Alta Precisão</h2>
+            <p>Descubra novas perspectivas com nossos serviços profissionais de drone.</p>
+            <a href="#contact" class="btn">Solicite um Orçamento</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <div class="services-grid">
+            <div class="service">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Mapeamento Aéreo</h3>
+                <p>Oferecemos mapeamento aéreo com drones, proporcionando imagens de alta resolução e dados detalhados para seus projetos.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-building"></i>
+                <h3>Inspeção de Infraestruturas</h3>
+                <p>Realize inspeções detalhadas e seguras em infraestruturas complexas, como pontes, edifícios e torres de energia.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-cubes"></i>
+                <h3>Modelagem 3D</h3>
+                <p>Crie modelos tridimensionais precisos para planejamento urbano, construção e muito mais.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-camera"></i>
+                <h3>Fotografia Aérea</h3>
+                <p>Capture imagens aéreas impressionantes para imóveis, eventos e campanhas publicitárias.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/portfolio1.jpg" alt="Mapeamento de Terreno">
+                <h3>Mapeamento de Terreno</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/portfolio2.jpg" alt="Inspeção de Ponte">
+                <h3>Inspeção de Ponte</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/portfolio3.jpg" alt="Modelagem 3D de Cidade">
+                <h3>Modelagem 3D de Cidade</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/portfolio4.jpg" alt="Fotografia Aérea de Imóvel">
+                <h3>Fotografia Aérea de Imóvel</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>A FlyEyes é uma empresa especializada em soluções de mapeamento e fotografia aérea com drones. Nossa equipe é formada por profissionais experientes e dedicados a oferecer serviços de alta qualidade, utilizando tecnologia de ponta.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para discutir seu projeto e solicitar um orçamento personalizado.</p>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FlyEyes. Todos os direitos reservados.</p>
+        <p>Siga-nos nas redes sociais:</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
